@@ -1,0 +1,111 @@
+main{
+  margin-left: 13%;
+  padding-left: 1%;
+  text-align: center;
+}
+section{
+  background: url(3.jpg);
+  position: relative;
+  padding: 2%;
+  height: 400px;
+  font-size: 250%;
+}
+.button {
+  background-color: #a0230f;
+  border: none;
+  border-radius: 5%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.space{
+  padding: 10%;
+  margin-bottom: 2%;
+  background-color: rgba(138, 43, 226, 0.5);
+}
+
+footer{
+  margin-left: 13%;
+  padding-left: 1%;
+  background: darkgrey;
+  padding: 10px 5px;
+  text-align: center;
+}
+figure,img{
+  margin: 50px 20px 10px;
+  border-radius: 50%;
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 60%;
+  background-color: saddlebrown;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: yellowgreen;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 13%;
+  background: url(phone.jpg) ;
+  background-attachment: fixed;
+  position: fixed !important;
+  height: 100%;
+  overflow: auto;
+}
+
+
+li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 16px;
+  color:white;
+  text-align: center;
+}
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+li a.active {
+  background-color: burlywood;
+  color: white;
+}
+
